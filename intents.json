@@ -1,0 +1,61 @@
+[
+  {
+    "intent": "greeting",
+    "patterns": ["hi", "hello", "hey", "yo", "sup", "hai", "helloo", "heyy"],
+    "responses": [
+      "Hey there! 👋 I'm BotBook, your laptop buddy. What can I help you with today?",
+      "Hello! 🤖 Ready to find your perfect laptop?",
+      "Hi hi! 🔍 Ask me anything about laptops!"
+    ]
+  },
+  {
+    "intent": "macbook_m2_price",
+    "patterns": ["how much is MacBook Air M2", "price of M2 MacBook", "MacBook Air 2023 cost"],
+    "responses": [
+      "The MacBook Air M2 (2023) starts at $999 (Amazon): https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B0B3C5T6Q8/",
+      "Check Best Buy for deals: https://www.bestbuy.com/site/macbook-air-13-6-laptop-m2-chip-8gb-memory-256gb-ssd-midnight/6509650.p?skuId=6509650"
+    ]
+  },
+  {
+    "intent": "rtx_4070_laptop_price",
+    "patterns": ["price of RTX 4070 laptop", "how much is a 4070 gaming laptop", "best deal for RTX 4070"],
+    "responses": [
+      "RTX 4070 laptops start at $1,399. Top picks:\n- ASUS ROG Strix G16 ($1,599): https://www.amazon.com/ASUS-Display-GeForce-Thunderbolt-G614JV-AS94/dp/B0BSWG5Y5H/\n- Lenovo Legion Pro 5 ($1,449): https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-8-(16-inch-intel)/82wk00h2us"
+    ]
+  },
+  {
+    "intent": "best_laptop_for_college",
+    "patterns": ["good laptop for students", "college laptop under $800", "best battery life for school"],
+    "responses": [
+      "Top student laptops:\n1. MacBook Air M1 ($799): https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B08N5M7S6K/\n2. Acer Swift 3 (Ryzen 5, $649): https://www.bestbuy.com/site/acer-swift-3-14-ips-laptop-amd-ryzen-5-8gb-memory-512gb-ssd-steel-gray/6533692.p?skuId=6533692\n3. Lenovo Yoga 7i (2-in-1, $749): https://www.lenovo.com/us/en/p/laptops/yoga/yoga-7-series/yoga-7i-gen-8-(14-inch-intel)/82y0001qus"
+    ]
+  },
+  {
+    "intent": "best_gaming_laptop_under_1500",
+    "patterns": ["gaming laptop under $1500", "best RTX 4060 laptop budget", "cheap gaming laptop 2024"],
+    "responses": [
+      "Best $1,500 gaming laptops:\n- ASUS TUF Dash F15 ($1,299): https://www.amazon.com/ASUS-Display-GeForce-Thunderbolt-FX517ZM-AS73/dp/B09RMH9B77/\n- Lenovo Legion 5 Pro ($1,399): https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-5-series/legion-5-pro-gen-7-(16-inch-amd)/82rg0089us"
+    ]
+  },
+  {
+    "intent": "black_friday_laptop_deals",
+    "patterns": ["laptop Black Friday deals", "best Cyber Monday laptop discounts", "when do laptops go on sale"],
+    "responses": [
+      "Track 2024 Black Friday deals live:\n- Amazon: https://www.amazon.com/deals?ref_=nav_cs_gb\n- Best Buy: https://www.bestbuy.com/site/electronics/laptop-computers/pcmcat138500050001.c?id=pcmcat138500050001\n- Newegg: https://www.newegg.com/Laptops-Notebooks/SubCategory/ID-32?Tid=6740"
+    ]
+  },
+  {
+    "intent": "windows_vs_mac_for_programming",
+    "patterns": ["should I get Mac or Windows for coding", "best OS for developers"],
+    "responses": [
+      "Mac (M1/M2): Better for iOS/web dev – https://www.apple.com/macbook-pro-14/\nWindows: More software support – https://www.dell.com/en-us/shop/dell-laptops/xps-15-laptop/spd/xps-15-9530-laptop"
+    ]
+  },
+  {
+    "intent": "best_laptop_docking_station",
+    "patterns": ["good USB-C dock for laptop", "best docking station for work"],
+    "responses": [
+      "Top docks:\n1. Caldigit TS4 ($399): https://www.amazon.com/CalDigit-TS4-USB-C-Docking-Station/dp/B09GL6LQ6X/\n2. Anker 565 ($199): https://www.amazon.com/Anker-575-Docking-Station-Ethernet/dp/B0B5T7Z5RS/"
+    ]
+  }
+]
